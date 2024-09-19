@@ -194,7 +194,6 @@ footer {
 .grid-conteiner {
     display: grid;
     justify-items: center;
-    align-items: start;
     justify-content: space-between;
     align-content: space-evenly;
 }
