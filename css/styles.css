@@ -193,7 +193,7 @@ footer {
 }
 .grid-conteiner {
     display: grid;
-    justify-items: center;
-    justify-content: space-between;
-    align-content: space-evenly;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
 }
