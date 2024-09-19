@@ -191,10 +191,16 @@ footer {
     background-color: lightblue;
     margin: 5px;
 }
-.grid-conteiner {
+.grid-container {
     display: grid;
-    grid-column: 2 / 4;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 100px);
     gap: 10px;
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+    grid-column: span 1;
+    grid-row: span 1;
 }
