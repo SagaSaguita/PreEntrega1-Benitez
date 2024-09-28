@@ -6,7 +6,7 @@ body {
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    padding: 10px;
+    padding: 0;
     font-size: 16px;
     line-height: 1.6;
     background-color: #f4f4f4;
@@ -14,15 +14,14 @@ body {
 }
 
 header, nav, main, footer {
-    padding: 20px;
-    margin: 10px;
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
     background-image: url('../img/Fondos-web.jpg');
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: auto;
+    
+    background-size: cover;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -212,7 +211,7 @@ footer {
 @media (min-width: 600px) {
     body {
         font-size: 18px;
-        padding: 20px;
+        padding: 0px;
     }
 
     .flex-container {
@@ -229,7 +228,7 @@ footer {
 @media (min-width: 1024px) {
     body {
         font-size: 20px;
-        padding: 30px;
+        padding: 0px;
     }
 
     .flex-container {
