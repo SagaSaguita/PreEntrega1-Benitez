@@ -106,6 +106,21 @@ footer {
     border: 2px solid #ccc;
     border-radius: 4px;
 }
+/* Estilos específicos para la galería */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 4px;
+}
+
 
 /* Estilos para la sección "Servicios" */
 #servicios {
