@@ -2,9 +2,6 @@
 /* Estilos base para dispositivos móviles */
 body {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -14,19 +11,17 @@ body {
 }
 
 header, nav, main, footer {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
     background-image: url('../img/Fondos-web.jpg');
-    
     background-size: cover;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0%;
     border-bottom: 40px solid rgb(3, 4, 94);
     border-top: 40px solid rgb(0, 119, 182);
 }
@@ -34,39 +29,9 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-footer {
-    background-color: rgb(144, 224, 239);
-    text-align: center;
-}
-
-/* Reset de estilos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilos generales */
-header {
-    background-color: #0077b6;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
     display: flex;
     justify-content: center;
     background-color: #003f63;
-    padding: 10px 0;
 }
 
 nav ul li {
@@ -195,23 +160,18 @@ footer {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 
-.grid-container img {
+.grid-item {
     width: 100%;
-    height: auto;
-    grid-column: span 1;
-    grid-row: span 1;
 }
 
 /* Media query para tabletas */
 @media (min-width: 600px) {
     body {
         font-size: 18px;
-        padding: 0px;
     }
 
     .flex-container {
@@ -220,7 +180,6 @@ footer {
 
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 100px);
     }
 }
 
@@ -228,7 +187,6 @@ footer {
 @media (min-width: 1024px) {
     body {
         font-size: 20px;
-        padding: 0px;
     }
 
     .flex-container {
@@ -237,6 +195,5 @@ footer {
 
     .grid-container {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 100px);
     }
 }
