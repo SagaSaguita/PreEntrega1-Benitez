@@ -15,15 +15,19 @@
     <header>
         <h1>Bienvenido a Mantenimiento Geek</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./pages/sobremi.html">Sobre Mí</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-            <li><a href="./pages/servicios.html">Servicios</a></li>
-            <li><a href="./pages/galeria.html">Galería</a></li>
-        </ul>
-    </nav>
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-dark p-4">
+          <h5 class="text-body-emphasis h4">Collapsed content</h5>
+          <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
     <main>
         <section id="inicio">
             <h2>Bienvenidos a Mantenimiento Geek</h2>
@@ -65,3 +69,12 @@
     </footer>
 </body>
 </html>
+<nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./pages/sobremi.html">Sobre Mí</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+            <li><a href="./pages/servicios.html">Servicios</a></li>
+            <li><a href="./pages/galeria.html">Galería</a></li>
+        </ul>
+    </nav>
