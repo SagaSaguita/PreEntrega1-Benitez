@@ -79,7 +79,7 @@ footer {
 }
 
 #sobre-mi h2, #galeria h2, #servicios h2 {
-    color: #0077b6;
+    color: white; /* Texto blanco */
     margin-bottom: 10px;
 }
 
